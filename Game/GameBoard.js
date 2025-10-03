@@ -11,6 +11,7 @@ function GameBoard() {
     const [stopFlip, setStopFlip] = React.useState(false); 
     const [won, setWon] = React.useState(0);
 
+    
     //this function start new Game
     function NewGame() {
         setTimeout(() => {

@@ -10,6 +10,7 @@ function Card({ item, handleSelectedCards, toggled, stopflip }) {
                     className="back"
                     onClick={() => !stopflip && handleSelectedCards(item)}
                 >
+                    
                     {" "}
                 </div>
             </div>
